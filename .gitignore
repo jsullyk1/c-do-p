@@ -1,0 +1,45 @@
+# Meson Build Directory
+# Ignore the common default build directories
+build/
+builddir/
+release/
+debug/
+
+# Meson generated files
+meson-private/
+meson-logs/
+meson-info/
+
+# Meson Subprojects (Keep .wrap files, ignore downloaded source)
+/subprojects/*
+!/subprojects/*.wrap
+
+# C/C++ Compiled Objects and Libraries
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.gch
+*.pch
+
+# Executables
+*.out
+*.app
+*.exe
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.user
+*.kdev4
+.directory
+
+# OS specific
+.DS_Store
+Thumbs.db
